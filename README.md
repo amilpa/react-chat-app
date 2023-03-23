@@ -7,3 +7,7 @@ Users can log on to the app onto a single group chat section where anyone can se
 There are functions that check for profanity to ban users who use unwanted vocabulary;).
 <br>
 A NoSQL database is used(firestore) for storing messages.
+<br>
+<br>
+<br>
+Youtube Ref - https://www.youtube.com/watch?v=zQyrwxMPm88
