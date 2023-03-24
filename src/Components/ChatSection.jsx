@@ -52,7 +52,7 @@ const ChatSection = () => {
 
 					const messageClass = msg.uid == auth.currentUser.uid ? 'ml-auto bg-[#4560c7] text-white rounded-l-xl rounded-br-xl' : 'bg-[#f4f5fa] text-black rounded-r-xl rounded-bl-xl'
 
-					return (<div key={ msg.createdAt } className={`flex items-center gap-5 mt-2 w-max py-1 px-3 ${messageClass}`}>
+					return (<div key={ msg.createdAt } className={`flex items-center gap-3 mt-2 w-max py-1 px-3 ${messageClass}`}>
 								<img src={ msg.photoURL } alt="sed" className='w-[30px] h-[30px] rounded-full'/>
 								<div>
 									<p className='text-xs'>{ msg.displayName }</p>
