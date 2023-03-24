@@ -46,7 +46,7 @@ const ChatSection = () => {
 
 	return (
 		<div className='flex flex-col justify-between bg-[white] rounded-xl p-2 h-[500px] w-[500px] shadow-2xl shadow-gray-600'>
-			<div className='flex justify-between items-center text-xl font-medium bg-[#4560c7] text-white pl-3 py-3 rounded-xl tracking-wide'>Welcome { auth.currentUser.displayName } <img src={auth.currentUser.photoURL} alt="true" className='w-[40px] rounded-full mr-3 border-2'/></div>
+			<div className='flex justify-between items-center text-xl font-medium bg-[#4560c7] text-white pl-3 py-3 rounded-xl tracking-wide'>Welcome { auth.currentUser.displayName } <img src={auth.currentUser.photoURL} alt="true" className='w-[37px] rounded-full mr-3'/></div>
 			<div className='h-full overflow-y-scroll py-3 no-scrollbar px-1 py-3'>
 				{ messages ? messages.map(msg => {
 
